@@ -5,7 +5,7 @@ function App() {
     <div style={{ fontFamily: 'Arial, sans-serif', margin: 0, padding: 0, backgroundColor: '#f4f6f8', minHeight: '100vh' }}>
       {/* Barra de Navegação */}
       <header style={{ backgroundColor: '#2e7d32', color: 'white', padding: '1rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-        <h1 style={{ margin: 0, fontSize: '1.5rem' }}>🌱 AgroPI - Gestão Inteligente</h1>
+        <h1 style={{ margin: 0, fontSize: '1.5rem' }}>SGET</h1>
         <nav>
           <a href="#inicio" style={{ color: 'white', textDecoration: 'none', margin: '0 1rem', fontWeight: 'bold' }}>Início</a>
           <a href="#monitoramento" style={{ color: 'white', textDecoration: 'none', margin: '0 1rem' }}>Monitoramento</a>
@@ -16,7 +16,7 @@ function App() {
       {/* Conteúdo Principal */}
       <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
         <section style={{ backgroundColor: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.05)', marginBottom: '2rem' }}>
-          <h2 style={{ color: '#1b5e20', marginTop: 0 }}>Bem-vindo ao Painel Agrícola</h2>
+          <h2 style={{ color: '#1b5e20', marginTop: 0 }}>Bem-vindo ao Painel SGET</h2>
           <p style={{ color: '#555', lineHeight: '1.6' }}>
             Este sistema faz parte do projeto integrador para o controle e acompanhamento de dados agrícolas, otimizando o monitoramento de safras e recursos.
           </p>
@@ -41,7 +41,7 @@ function App() {
 
       {/* Rodapé */}
       <footer style={{ backgroundColor: '#1e3a1e', color: '#ccc', textAlign: 'center', padding: '1.5rem', marginTop: '3rem', fontSize: '0.9rem' }}>
-        <p style={{ margin: 0 }}>&copy; 2026 AgroPI - Todos os direitos reservados.</p>
+        <p style={{ margin: 0 }}>&copy; 2026 SGET - Todos os direitos reservados.</p>
       </footer>
     </div>
   );
